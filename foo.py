@@ -7,10 +7,8 @@ def main(argc, argv):
         sys.stderr.write("Usage: %s <num>\n" % argv[0])
         return -1
 
-    i = 0
-    while i < int(argv[1]):
-        print "%02d: Hello World." % i
-        i += 1
+    for i in range(int(argv[1])):
+        print "%02d: Hello World." % (i + 1)
 
     return 0
 

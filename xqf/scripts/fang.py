@@ -38,17 +38,17 @@ def main(argc, argv):
     zhongjiefee  = raw_total * 0.027 # raw_total * 2.7%
     others       = (600 + 1070) / 10000.0
     shoufu       = raw_total - loan + deed_tax + zhongjiefee + others
-    print("Raw total   = %8.2f" % raw_total)
-    print("Net total   = %8.2f" % net_total)
-    print("Loan        = %8.2f" % loan)
-    print("Deed tax    = %8.2f" % deed_tax)
-    print("Zhongjiefee = %8.2f" % zhongjiefee)
-    print("Shoufu      = %8.2f" % shoufu)
-    print("XXCore      = %8.2f" % (shoufu - g_capital))
-    print("Yuegong(#%d)= %8.2f" % (loan_nyears,
-                                   get_yuegong(10000 * loan,
-                                               loan_nyears,
-                                               g_ylilv)))
+    print("Raw total    = %8.2f" % raw_total)
+    print("Net total    = %8.2f" % net_total)
+    print("Loan         = %8.2f" % loan)
+    print("Deed tax     = %8.2f" % deed_tax)
+    print("Zhongjiefee  = %8.2f" % zhongjiefee)
+    print("Shoufu       = %8.2f" % shoufu)
+    print("XXCore       = %8.2f" % (shoufu - g_capital))
+    yg01 = get_yuegong(10000 * loan, loan_nyears, g_ylilv);
+    print("Yuegong(#%2d) = %8.2f" % (loan_nyears, yg01));
+    yg02 = get_yuegong(10000 * loan, loan_nyears + 5, g_ylilv);
+    print("Yuegong(#%2d) = %8.2f" % (loan_nyears + 5, yg02));
     return 0
 
 if __name__ == "__main__":

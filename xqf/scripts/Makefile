@@ -1,6 +1,7 @@
 TARGETS	= fang \
 	  run_fang \
-	  bank
+	  bank \
+	  run_bank
 
 
 all: ${TARGETS}

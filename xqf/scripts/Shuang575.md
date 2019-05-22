@@ -27,4 +27,38 @@ bash[2]$ ./bank 18:0.375:2:ZH
 #            Total YueLixi   = 675
 #            Total Yuegong   = 8175
 ###############################################################################
+
+bash[3]$ ./bank 18:0.375:1.5:ZH
+[ ZhaoHang ] Total Loan = 18w
+[ ZhaoHang ] Total Lixi = 12150
+[ ZhaoHang ] YueLilv    = 0.375
+[ ZhaoHang ] nYears     = 1
+[ ZhaoHang ] YueBenjin  = 10000
+[ ZhaoHang ] YueLixi    = 675
+[ ZhaoHang ] Yuegong    = 10675
+
+###############################################################################
+#            Total Loan      = 18w
+#            Total Lixi      = 12150
+#            Total YueBenjin = 10000
+#            Total YueLixi   = 675
+#            Total Yuegong   = 10675
+###############################################################################
+
+bash[4]$ ./bank 18:0.375:1:ZH
+[ ZhaoHang ] Total Loan = 18w
+[ ZhaoHang ] Total Lixi = 8100
+[ ZhaoHang ] YueLilv    = 0.375
+[ ZhaoHang ] nYears     = 1
+[ ZhaoHang ] YueBenjin  = 15000
+[ ZhaoHang ] YueLixi    = 675
+[ ZhaoHang ] Yuegong    = 15675
+
+###############################################################################
+#            Total Loan      = 18w
+#            Total Lixi      = 8100
+#            Total YueBenjin = 15000
+#            Total YueLixi   = 675
+#            Total Yuegong   = 15675
+###############################################################################
 ```

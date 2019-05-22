@@ -42,7 +42,7 @@ def do_sum(l_loan):
         l_cell = cell.split(':')
         e_loan = int(l_cell[0])
         e_mlilv = float(l_cell[1])
-        e_nyears = int(l_cell[2])
+        e_nyears = float(l_cell[2])
         if len(l_cell) > 3:
             tag = get_tag(i, l_cell[3])
         else:

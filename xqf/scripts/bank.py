@@ -25,7 +25,10 @@ def get_tag(nid, bid=None):
             'GH': 'GongHang',
             'NA': 'Unknown '
         }
-        return '[ %s ]' % d_bank[bank_id]
+        if bank_id in d_bank:
+            return '[ %s ]' % d_bank[bank_id]
+        else:
+            return '[ %s ]' % bank_id
 
 
 def do_sum(l_loan):

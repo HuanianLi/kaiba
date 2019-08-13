@@ -5,7 +5,9 @@ TARGETS	= fang \
 	  long6 \
 	  run_long6 \
 	  xydaikuan \
-	  run_xydaikuan
+	  run_xydaikuan \
+	  daikuan \
+	  run_daikuan
 
 
 all: ${TARGETS}

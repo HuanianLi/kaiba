@@ -7,7 +7,8 @@ TARGETS	= fang \
 	  xydaikuan \
 	  run_xydaikuan \
 	  daikuan \
-	  run_daikuan
+	  run_daikuan \
+	  nb_bank
 
 
 all: ${TARGETS}

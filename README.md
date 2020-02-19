@@ -7,3 +7,6 @@ kaiba: A sandbox project of Kaiba
 
 # Kaiba古诗词3000
 ## [gsc3000](https://github.com/HuanianLi/kaiba/tree/master/gsc3000)
+
+# Kaiba健身
+## [pe](https://github.com/HuanianLi/kaiba/tree/master/pe)

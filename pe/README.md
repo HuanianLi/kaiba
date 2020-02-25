@@ -14,13 +14,19 @@ download it. For more, please refer to:
 |[01][URL01]|  5  |[001.1080p.mp4][PAN01]|`i429`|30 Min Fat Burning Cardio Workout - Bipasha Basu Unleash 'Full Routine'||
 |[02][URL02]|  4  |[002.1080p.mp4][PAN02]|`69gs`|30-Minute HIIT Cardio Workout with Warm Up - No Equipment at Home      ||
 |[03][URL03]|  4  |[003.1080p.mp4][PAN03]|`behr`|15 Minute Fat Burning HIIT Workout|背景音乐不错|
+|[04][URL04]|  4  |[004.1080p.mp4][PAN04]|`4vgh`|10 MIN FLAT BELLY WORKOUT||
+|[05][URL05]|  5  |[005.720p.mp4][PAN05] |`uw45`|5-Minute Workout That Replaces High-Intensity Cardio|
 
 
 [URL01]: https://www.youtube.com/watch?v=LUrrN6cEBRQ
 [URL02]: https://www.youtube.com/watch?v=ml6cT4AZdqI
 [URL03]: https://www.youtube.com/watch?v=0LlT7MSKJBc
+[URL04]: https://www.youtube.com/watch?v=oX_b51MIGII
+[URL05]: https://www.youtube.com/watch?v=FXDWtYsu1dQ
 
 [PAN01]: https://pan.baidu.com/s/1qJV0ZrjVky8rnpN1pYrKUQ
 [PAN02]: https://pan.baidu.com/s/1NYJ3z5FVc2NCqvypRr2UpQ
 [PAN03]: https://pan.baidu.com/s/1tfWCS07Tx_-mfwqWx9atRQ
+[PAN04]: https://pan.baidu.com/s/14_ePJagoWJG1CjkZkPs5Mw
+[PAN05]: https://pan.baidu.com/s/1HYFkDoktgJKFu7SRDYJNKA
 

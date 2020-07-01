@@ -12,11 +12,19 @@ def main(argc, argv):
         print("# Guangfa: Yuelilv = 0.60% if N <= 12 else 0.44%",
               file=sys.stderr)
         print("# Ningbo  bank #", file=sys.stderr)
-        print("       %s  3 12 0.60:0.88  6:5" % argv[0], file=sys.stderr)
-        print("       %s 20 36 0.60:0.88 12:5" % argv[0], file=sys.stderr)
+        print("       %s  3 12 0.60:0.88   6:5" % argv[0], file=sys.stderr)
+        print("       %s 20 36 0.60:0.88  12:5" % argv[0], file=sys.stderr)
+        #
+        # 2020/06/30: Ningbo Bank Promotional Activity
+        # * Yue Lilv                 :         0.7% ==> 0.7% * 0.618
+        # * Tiqian Huankuan Shouxufei: shengyu * 5% ==> shengyu * 3%
+        #
+        print("       %s 20 36 0.70:0.618 12:3" % argv[0], file=sys.stderr)
+        print("       %s 20 36 0.70:0.618 18:3" % argv[0], file=sys.stderr)
+        print("       %s 20 36 0.70:0.618 24:3" % argv[0], file=sys.stderr)
         print("# Guangfa bank #", file=sys.stderr)
-        print("       %s  3 12 0.44:1.00  6:4" % argv[0], file=sys.stderr)
-        print("       %s 20 36 0.44:1.00 12:4" % argv[0], file=sys.stderr)
+        print("       %s  3 12 0.44:1.00   6:4" % argv[0], file=sys.stderr)
+        print("       %s 20 36 0.44:1.00  12:4" % argv[0], file=sys.stderr)
         return 1
 
     loan = int(argv[1]) * 10000
@@ -29,7 +37,7 @@ def main(argc, argv):
     tqhk_feilv = float(list_argv4[1]) / 100
 
     yuebenjin = loan / fqs
-    yuelixi = loan * yuelilv
+    yuelixi = loan * yuelilv * lilv_zhekou
     zonglixi = yuelixi * fqs
     yuegong = yuebenjin + yuelixi
 

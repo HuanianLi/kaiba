@@ -1,0 +1,124 @@
+{
+    "Chinese": {
+        "unit-exam": {
+            "alias": "01-danyuankaoshi",
+            "weight": 0.5,
+            "scores": [
+                98,
+                97,
+                94,
+                97.5,
+                99,
+                "NA",
+                99,
+                95
+            ]
+        },
+        "midterm-mock-exam": {
+            "alias": "02-qizhongmoni",
+            "weight": 0.05,
+            "scores": []
+        },
+        "midterm-exam": {
+            "alias": "03-qizhongkaoshi",
+            "weight": 0.15,
+            "scores": [
+                99.5
+            ]
+        },
+        "final-mock-exam": {
+            "alias": "04-qimomoni",
+            "weight": 0.05,
+            "scores": [
+                95,
+                94.5,
+                95,
+                98.5
+            ]
+        },
+        "final-exam": {
+            "alias": "05-qimokaoshi",
+            "weight": 0.25,
+            "scores": [
+                99
+            ]
+        }
+    },
+    "Math": {
+        "unit-exam": {
+            "alias": "01-danyuankaoshi",
+            "weight": 0.5,
+            "scores": [
+                89,
+                92,
+                81,
+                100,
+                98,
+                96,
+                "NA",
+                "NA"
+            ]
+        },
+        "midterm-mock-exam": {
+            "alias": "02-qizhongmoni",
+            "weight": 0.05,
+            "scores": [
+                88
+            ]
+        },
+        "midterm-exam": {
+            "alias": "03-qizhongkaoshi",
+            "weight": 0.15,
+            "scores": [
+                96
+            ]
+        },
+        "final-mock-exam": {
+            "alias": "04-qimomoni",
+            "weight": 0.05,
+            "scores": [
+                98,
+                95,
+                99
+            ]
+        },
+        "final-exam": {
+            "alias": "05-qimokaoshi",
+            "weight": 0.25,
+            "scores": [
+                100
+            ]
+        }
+    },
+    "English": {
+        "unit-exam": {
+            "alias": "01-danyuankaoshi",
+            "weight": 0.5,
+            "scores": []
+        },
+        "midterm-mock-exam": {
+            "alias": "02-qizhongmoni",
+            "weight": 0.05,
+            "scores": []
+        },
+        "midterm-exam": {
+            "alias": "03-qizhongkaoshi",
+            "weight": 0.15,
+            "scores": [
+                100
+            ]
+        },
+        "final-mock-exam": {
+            "alias": "04-qimomoni",
+            "weight": 0.05,
+            "scores": []
+        },
+        "final-exam": {
+            "alias": "05-qimokaoshi",
+            "weight": 0.25,
+            "scores": [
+                94
+            ]
+        }
+    }
+}
